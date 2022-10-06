@@ -1,0 +1,233 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+body {
+   font-family: 'Reggae One', cursive;
+   font-size: 32px;
+   line-height: 1.3;
+   text-align: center;
+   color: #fff;
+   background: url("../img/Camel_Smoke_466673.jpg")center top;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.header {
+   padding-top: 20px;
+   margin-bottom: 10px;
+}
+
+.nav {
+   max-width: 800px;
+   margin: 0 0 0 auto;
+   padding: 10px;
+}
+
+.button,
+.gif-button {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 8px solid #fff;
+}
+
+.button {
+   display: inline-block;
+   color: red;
+   background-color: rgba(172, 255, 47, 0.597);
+   font-weight: 700;
+   padding: 40px 0 40px;
+   margin: 0 50px 20px 0;
+   box-shadow: inset 0 0 15px #000;
+}
+
+.gif-button {
+   background-color: rgb(218, 230, 240);
+   outline: 3.5px solid red;
+}
+
+.block-shadow {
+   box-shadow: 0 0 20px 3px #000;
+}
+
+.block-shadow,
+.slogan {
+   width: 95%;
+   margin: 0 auto 50px;
+}
+
+h1.block-shadow.heading {
+   font-size: 65px;
+   font-weight: 700;
+   color: cadetblue;
+   background-color: rgba(255, 255, 255, 0.734);
+   padding: 25px 0;
+}
+
+.content-1 {
+   font-size: 30px;
+   color: aliceblue;
+   min-height: 400px;
+   padding: 20px 20px 50px;
+   background: url('../img/camel_chew.gif')no-repeat #5a83d69c;
+   background-size: contain;
+}
+
+.block-entry {
+   max-width: 550px;
+   margin: 0 auto 35px;
+}
+
+.text-entry {
+   text-align: right;
+}
+
+h2.block-shadow.heading {
+   max-width: 900px;
+   padding: 25px;
+   font-size: 42px;
+   font-weight: 700;
+   border-radius: 30px 70px;
+   color: crimson;
+   /* background-color: rgba(127, 255, 212, 0.631); */
+   background-color: rgba(255, 255, 255, 0.46);
+}
+
+.content-2,
+.content-4 {
+   background-color: #5a83d69c;
+}
+
+.text-black {
+   color: #000;
+   font-size: 18px;
+   text-align: left;
+}
+
+.text-content {
+   padding: 15px 0;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.text-white-big {
+   padding: 120px 0;
+   font-size: 50px;
+}
+
+.block-repeat,
+.block-repeat-x,
+.block-repeat-y,
+.block-no-repeat {
+   min-height: 500px;
+   max-width: 900px;
+   margin: 0 auto 25px;
+   background: url('../img/camel_chew.gif');
+   background-size: 100px;
+   background-color: rgba(255, 235, 205, 0.159);
+}
+
+.block-repeat-x {
+   background-repeat: repeat-x;
+}
+
+.block-repeat-y {
+   background-repeat: repeat-y;
+}
+
+.block-no-repeat {
+   background-repeat: no-repeat;
+   background-position: left center;
+}
+
+.content-3 {
+   background-color: rgba(0, 0, 0, 0.59);
+}
+
+.block-space {
+   min-height: 600px;
+   max-width: 700px;
+   margin: 0 auto 25px;
+   background: url('../img/camel_eyes.jpg') space;
+   background-size: 200px;
+}
+
+.block-round {
+   min-height: 500px;
+   max-width: 700px;
+   margin: 0 auto 25px;
+   background: url('../img/camel_eat_cactus_2.gif') round fixed;
+   background-size: 300px;
+}
+
+.instagram {
+   background: url('../img/instagram3.png') 0 15px/50px no-repeat;
+   max-width: 700px;
+   padding-left: 80px;
+   text-align: left;
+   min-height: 50px;
+   padding-bottom: 25px;
+}
+
+.block-position,
+.block-position-percent,
+.block-position-px {
+   max-width: 900px;
+   min-height: 500px;
+   margin: 0 auto 25px;
+   background-color: rgba(255, 235, 205, 0.159);
+}
+
+.content-4 .text {
+   font-size: 26px;
+   max-width: 900px;
+   margin: 0 auto;
+   background: rgba(0, 0, 139, 0.439);
+}
+
+.block-position {
+   background: url('../img/camel_drink.jpg') left top/280px no-repeat, url('../img/camel_sing.jpg') right center/220px no-repeat, url('../img/camel_with_girl.jpg') center bottom/280px no-repeat rgba(255, 235, 205, 0.159);
+}
+
+.block-position-percent {
+   background: url('../img/camel_chew.gif') 5% 10%/ 150px no-repeat, url('../img/camel_hair.jfif') 50%/200px no-repeat, url('../img/camel_flowers.jpg ')98% 83%/300px no-repeat, url('../img/camel_with_girl.jpg') 80% 30%/300px no-repeat, url('../img/Camel_Smoke_466673.jpg') 0% 100% /250px no-repeat rgba(255, 235, 205, 0.159);
+}
+
+.block-position-px {
+   background: url('../img/camel_hat.jpg') 150px 110px /250px no-repeat, url('../img/camel_tights_2.jpg') 500px 250px/200px no-repeat, url('../img/camel_spiderman.jpg') 250px 350px/200px no-repeat, url('../img/camel_sing.jpg') 580px 80px/350px no-repeat, url('../img/camel_sit_down.jfif') -80px 0px/250px no-repeat, rgba(255, 235, 205, 0.159);
+}
+
+.content-5 {
+   background-color: rgba(105, 105, 105, 0.707);
+}
+
+.block-gradient {
+   max-width: 900px;
+   min-height: 500px;
+   margin: 0 auto;
+   background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgba(255, 255, 255, 0.761) 100%), url('../img/camel_eyes.jpg') 0 0/220px no-repeat, url('../img/camel_eyes.jpg') 95% 5%/auto 220px no-repeat, url('../img/camel_eyes.jpg') 50% 90%/400px 200px no-repeat rgba(255, 235, 205, 0.159);
+}
+
+.slogan {
+   font-size: 70px;
+   background-size: 300px 100px;
+   padding-bottom: 100px;
+   margin-bottom: 250px;
+}
+
+.slogan span {
+   color: rgb(220, 20, 60);
+}
+
+footer {
+   background-color: rgb(100, 148, 237);
+   text-align: left;
+   font-size: 18px;
+   padding: 50px;
+}

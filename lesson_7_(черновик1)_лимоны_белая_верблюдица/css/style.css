@@ -1,0 +1,75 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+body.index {
+   font-family: 'Reggae One', cursive;
+   font-size: 18px;
+   line-height: 1.3;
+   background-image: url("../img/lemon-4267329_1280.png");
+   background-size: 100%;
+   background-attachment: fixed;
+   /* opacity: 0.5; */
+}
+
+.header {
+   padding-top: 20px;
+   margin-bottom: 40px;
+}
+
+.nav {
+   max-width: 800px;
+   margin: 0 0 0 auto;
+   padding: 10px;
+}
+
+.link,
+.camel {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 8px solid #fff;
+}
+
+.link {
+   display: inline-block;
+
+   color: red;
+   background-color: greenyellow;
+   font-weight: 700;
+   text-align: center;
+   padding: 40px 0 40px;
+   margin-right: 50px;
+   margin-bottom: 20px;
+   box-shadow: inset 0 0 15px #000;
+}
+
+.camel {
+   background-color: aliceblue;
+   outline: 10px double red;
+}
+
+
+h1 {
+   font-size: 65px;
+   font-weight: 700;
+   color: cadetblue;
+   background-color: #fff;
+   text-align: center;
+}
+
+p {}
+
+
+
+
+
+footer p {
+   font-size: 50px;
+   text-align: center;
+}

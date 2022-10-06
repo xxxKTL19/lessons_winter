@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Supermercado';
+    src: url('Supermercado-Regular.woff2') format('woff2'),
+        url('Supermercado-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

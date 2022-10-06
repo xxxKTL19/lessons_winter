@@ -1,0 +1,180 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+body {
+   background-color: rgba(127, 255, 212, 0.357);
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+.header-block {
+   padding: 1%;
+   margin: 20px 50px;
+   background-color: rgba(47, 79, 79, 0.111);
+}
+
+img.little-green-men {
+   width: 40%;
+}
+
+a {
+   color: dodgerblue;
+   text-decoration: underline;
+   font-style: italic;
+   font-weight: 700;
+}
+
+/* Эксперимент с inline-block для строчных элементов*/
+a.link {
+   display: inline-block;
+   font-size: 25px;
+   padding: 0 0 0 200px;
+   margin: 100px 0 0 auto;
+}
+
+.about {
+   max-width: 600px;
+   padding: 0px 50px 30px 0px;
+   margin: 0 0 0 auto;
+   text-align: right;
+}
+
+h1.heading-main {
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-size: 65px;
+   line-height: 1.25;
+   letter-spacing: -2px;
+   text-align: center;
+   text-shadow: 2px 5px 5px rgba(220, 20, 60, 0.775);
+   max-width: 1000px;
+   padding-top: 5px;
+   padding-right: 50px;
+   padding-bottom: 15px;
+   padding-left: 50px;
+   margin: 0 auto 20px;
+}
+
+h2 {
+   font-weight: 700;
+   font-style: italic;
+   font-size: 25px;
+   text-indent: 70px;
+}
+
+main img {
+   width: 85%;
+   margin-bottom: 35px;
+}
+
+img.thinking {
+   margin: 0 50px 35px;
+}
+
+.picture-block {
+   max-width: 900px;
+   margin: 0 0 0 auto;
+}
+
+.picture-block_2 .sock-in-washer {
+   margin: 0 50px;
+}
+
+.picture-block_2 {
+   height: 300px;
+   overflow: scroll;
+   max-width: 900px;
+   margin: 30px;
+   padding: 0 25px;
+}
+
+.scroll {
+   max-width: 800px;
+   height: 300px;
+   padding: 0 20px;
+   margin: 0 0 30px 70px;
+   overflow: auto;
+   background-color: aliceblue;
+}
+
+.flying-plate {
+   width: 50%;
+   margin: 0 200px 35px;
+}
+
+/* Эксперимент- padding с картинкой */
+.green-head {
+   padding: 0 40% 1% 30%;
+}
+
+.padding-with-picture>p {
+   color: rgb(145, 19, 44);
+   font-style: italic;
+   font-size: 14px;
+   letter-spacing: 3px;
+}
+
+mark {
+   color: darkblue;
+   font-weight: 900;
+}
+
+.text-block {
+   margin-bottom: 25px;
+}
+
+p {
+   max-width: 1300px;
+   text-align: justify;
+   padding-left: 25px;
+}
+
+.scroll>p {
+   margin: 0 0 18px;
+   text-indent: 25px;
+   font-style: italic;
+   color: rgb(37, 7, 58);
+}
+
+footer {
+   background-color: darkslategrey;
+   height: 100px;
+}
+
+/* Эксперименты со строчными элементами */
+footer>.link_1 {
+   margin: 10px;
+   padding-left: 50px;
+}
+
+footer>.link_2 {
+   display: inline-block;
+   margin: -5px 0 10px;
+   padding-left: 50px;
+}
+
+footer>.link_3 {
+   display: inline-block;
+   margin: 10px 50px;
+}
+
+a.link_4 {
+   margin: 0 50px;
+   padding-left: 50px;
+}
+
+footer p {
+   color: #fff;
+   font-style: italic;
+   text-align: center;
+   font-size: 14px;
+}

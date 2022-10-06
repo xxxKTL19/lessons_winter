@@ -1,0 +1,65 @@
+/* @import "null.css" */
+
+.heading {
+   color: blueviolet
+}
+
+h1.heading {
+   color: deeppink;
+}
+
+mark {
+   color: limegreen;
+}
+
+.breeds mark {
+   color: red;
+}
+
+.number-of-dogs mark {
+   color: firebrick;
+}
+
+.number-of-dogs span {
+   color: crimson;
+}
+
+.heading.about {
+   color: fuchsia;
+}
+
+li {
+   color: coral;
+}
+
+p span {
+   color: rgb(68, 6, 6);
+}
+
+.role-of-dogs p {
+   color: rgb(123, 223, 15);
+}
+
+p mark {
+   color: blue;
+}
+
+.breeds {
+   color: darkblue;
+}
+
+.breeds .text {
+   color: hotpink;
+}
+
+footer a {
+   color: deeppink;
+}
+
+[target="_blank"] {
+   color: aqua;
+}
+
+[class="new"] {
+   color: darkorange;
+}
